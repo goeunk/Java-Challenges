@@ -41,7 +41,7 @@ class Solution{
                
             }
             //sFinalResultSet = Arrays.toString(finalResultSet);
-            sFinalResultSet = Arrays.toString(finalResultSet).replace("[", "")                  .replace("]", "").replace(",", "");
+            sFinalResultSet = Arrays.toString(finalResultSet).replace("[", "").replace("]", "").replace(",", "");
             System.out.print(sFinalResultSet);
 
             System.out.println();
